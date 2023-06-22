@@ -1,0 +1,261 @@
+*{
+    margin : 0; 
+    padding : 0;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+h2{
+    color : white; 
+}
+
+header{
+    background-color:#1C536A;
+    color : white; 
+    height : 7em; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer{
+    background-color:#1C536A;
+    height : 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.introtexte{
+    text-align: center;
+    margin-left : 15em; 
+    margin-right : 15em
+}
+
+body{
+    background-color: #DBCEB4;
+}
+
+.panneaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    margin-top : 5em
+}
+
+.firstLine{
+    display: flex;
+    flex-direction: column;
+    gap : 6em; 
+    margin-left : 10em
+}
+
+.secondLine{
+    display: flex;
+    flex-direction: column;
+    gap : 6em;
+    margin-right : 10em
+}
+
+.container1{
+    background-color:#0C6C95 ;
+    height : 30em; 
+    width: 30em;
+    text-align: center;
+    padding-top: 1em; 
+    border-radius: 10px;
+    box-shadow: 32px 38px 13px -12px rgba(0,0,0,0.1);
+    transition: transform 0.5s;
+}
+
+.container1:hover {
+    transform: rotate(360deg);
+}
+
+#container2{
+    background-color:#1C536A ;
+    height : 30em; 
+    width: 30em;
+    text-align: center;
+    padding-top: 1em; 
+    border-radius: 10px;
+    box-shadow: 32px 38px 13px -12px rgba(0,0,0,0.1);
+}
+
+#container3{
+    background-color:#1C536A ;
+    height : 30em; 
+    width: 30em;
+    text-align: center;
+    padding-top: 1em; 
+    border-radius: 10px;
+    box-shadow: 32px 38px 13px -12px rgba(0,0,0,0.1);
+}
+
+#container4{
+    background-color:#0C6C95;
+    height : 30em; 
+    width: 30em;
+    text-align: center;
+    padding-top: 1em; 
+    border-radius: 10px;
+    box-shadow: 32px 38px 13px -12px rgba(0,0,0,0.1);
+}
+
+.description{
+    margin-top : 5em; 
+    margin-bottom : 6em; 
+}
+
+
+.ListCompt{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    color: white;
+    margin-left: 3em;
+
+   
+}
+
+ul{
+    list-style-type: none;
+    width : 19em;
+  }
+
+li{
+    margin-bottom :1.5em;
+    padding-right : 1em
+}
+
+  .logolknd{
+    height : 4rem; 
+    width: 4rem;
+  }
+
+.contact{
+    margin-top : 3em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    margin-bottom: 2em;
+    margin-top : 2em
+
+}
+
+a{
+    color : white
+}
+
+a:hover {
+    opacity: 50% ;
+}
+
+progress{
+    margin-left: 1em;
+    margin-bottom : 1.7em;
+    margin-right : 2em;
+}
+
+button {
+    width: 10em;
+    height : 3em; 
+    border-radius: 5px;
+    background-color: #0C6C95;
+    color : white; 
+    margin-bottom : 3em
+}
+
+input {
+    border-radius: 10px;
+    height : 3em;
+    margin-top :0.5em;
+    border : none
+
+}
+
+textarea {
+    margin-top : 0.5em; 
+}
+
+.MartyMcfly{
+    position: absolute;
+    opacity: 50%;
+    right : 1em; 
+    top : 35em
+}
+
+/*moreinfo section */
+
+.moreinfo{
+    height : 70vh; 
+    background-color: #1C536A;
+    border-bottom: solid white 2px;
+
+}
+
+.img1 {
+    width : 20em; 
+    height : auto; 
+    border-radius: 15px
+}
+
+.img2 {
+    width : 20em; 
+    height : auto; 
+    border-radius: 15px
+}
+
+.moreInfoMainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top : 3em
+}
+
+
+.moreinfotitle {
+    margin-left : 3em; 
+    padding-top : 2em; 
+    color : white
+}
+
+.bloc1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap : 1em;
+    color : white;
+    text-align: center;
+    margin-left : 4em
+}
+
+.bloc2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap : 1em;
+    color : white;
+    text-align: center;
+    margin-right : 4em
+}
+
+.moreinfointro{
+    margin-left : 3em; 
+    color : white; 
+    font-size : 1em
+}
+/*Animation !!*/
+
+.animate__animated animate__backInUp{
+    animation-duration: 2s;
+}
